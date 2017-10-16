@@ -14,8 +14,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var weekHourlyLabel: UILabel!
     @IBOutlet weak var totalHourlyLabel: UILabel!
     
+    var entryArray: [Entry] = []
     
     
+    let test = Entry()
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -14,6 +14,7 @@
 		D88DB01E1F942BAA00149357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88DB01D1F942BAA00149357 /* Assets.xcassets */; };
 		D88DB0211F942BAA00149357 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88DB01F1F942BAA00149357 /* LaunchScreen.storyboard */; };
 		D88DB0291F94390600149357 /* Calculate Class : Entry Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88DB0281F94390600149357 /* Calculate Class : Entry Struct.swift */; };
+		D88DB02B1F945EE700149357 /* AddEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88DB02A1F945EE700149357 /* AddEntryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D88DB0201F942BAA00149357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D88DB0221F942BAA00149357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D88DB0281F94390600149357 /* Calculate Class : Entry Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calculate Class : Entry Struct.swift"; sourceTree = "<group>"; };
+		D88DB02A1F945EE700149357 /* AddEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +63,12 @@
 				D88DB0131F942BAA00149357 /* AppDelegate.swift */,
 				D88DB0151F942BAA00149357 /* ViewController.swift */,
 				D88DB0171F942BAA00149357 /* Main.storyboard */,
+				D88DB02A1F945EE700149357 /* AddEntryViewController.swift */,
+				D88DB0281F94390600149357 /* Calculate Class : Entry Struct.swift */,
 				D88DB01D1F942BAA00149357 /* Assets.xcassets */,
 				D88DB01F1F942BAA00149357 /* LaunchScreen.storyboard */,
 				D88DB0221F942BAA00149357 /* Info.plist */,
 				D88DB01A1F942BAA00149357 /* Tipsy_Driver.xcdatamodeld */,
-				D88DB0281F94390600149357 /* Calculate Class : Entry Struct.swift */,
 			);
 			path = "Tipsy Driver";
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				D88DB0291F94390600149357 /* Calculate Class : Entry Struct.swift in Sources */,
 				D88DB01C1F942BAA00149357 /* Tipsy_Driver.xcdatamodeld in Sources */,
 				D88DB0161F942BAA00149357 /* ViewController.swift in Sources */,
+				D88DB02B1F945EE700149357 /* AddEntryViewController.swift in Sources */,
 				D88DB0141F942BAA00149357 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

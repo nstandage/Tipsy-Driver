@@ -8,9 +8,7 @@
 
 import Foundation
 
-
-
-
+/*
 struct Entry {
     var hoursWorked: Double
     var tips: Double
@@ -18,28 +16,12 @@ struct Entry {
     
 }
 
-
-
-
 class Calculate {
     
     static func daily(entry: Entry) -> Double {
         return entry.tips / entry.hoursWorked
     }
-    
-    static func weekly(entries: [Entry]) -> Double {
-        var totalHours: Double = 0
-        var totalTips: Double = 0
-        
-        for currentEntry in entries {
-            
-            totalTips += currentEntry.tips
-            totalHours += currentEntry.hoursWorked
-            
-        }
-    
-        return totalTips / totalHours
-    }
+
     
     static func total(entries: [Entry]) {
         
@@ -55,3 +37,4 @@ class Calculate {
 
 }
 
+*/
