@@ -9,6 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var todayHourlyLabel: UILabel!
+    @IBOutlet weak var weekHourlyLabel: UILabel!
+    @IBOutlet weak var totalHourlyLabel: UILabel!
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
