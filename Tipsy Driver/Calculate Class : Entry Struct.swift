@@ -8,7 +8,11 @@
 
 import Foundation
 
-/*
+enum CalculateError: Error {
+    case Error1234
+}
+
+
 struct Entry {
     var hoursWorked: Double
     var tips: Double
@@ -18,12 +22,13 @@ struct Entry {
 
 class Calculate {
     
-    static func daily(entry: Entry) -> Double {
-        return entry.tips / entry.hoursWorked
+    static func dailyHourly(entry: Entry) -> String {
+        let finalTotal = rounded(entry.tips / entry.hoursWorked)
+        return "\(finalTotal)"
     }
 
     
-    static func total(entries: [Entry]) {
+    static func totalHourly(entries: [Entry]) -> String {
         
         var totalHours: Double = 0
         var totalTips: Double = 0
@@ -33,8 +38,14 @@ class Calculate {
             totalTips += currentEntry.tips
             totalHours += currentEntry.hoursWorked
         }
+        
+        let finalTotal = rounded(totalTips / totalHours)
+        return "\(finalTotal)"
     }
-
+    
+    static func rounded(_ number: Double) -> Double {
+        
+        return round(100 * number) / 100
+    }
 }
 
-*/
